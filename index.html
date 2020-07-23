@@ -18,25 +18,25 @@
         
         <nav class="navbar navbar-default navbar-expand-lg navbar-dark bg-dark sticky-top">
             <a class="navbar-brand" href="#">Jeffrey Svajlenko</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="navbartoggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#career">Career</a>
                     </li>
-                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#education">Education</a>
                     </li>
-                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#awards">Awards</a>
                     </li>
-                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item active" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#publications">Publications</a>
                     </li>
                 </ul>
@@ -79,7 +79,7 @@
                 <ul>
                     <li>Software engineer on the Reporting team developing the Analytics Service for Azure DevOps Cloud and On-Prem Server offerings.</li>
                     <li>Data warehousing of software engineering data (work item tracking, test runs, builds, etc) into a unified analytic model.</li>
-                    <li>Novel continuous (up to nearly real-time) incremental warehouse updates with data quality monitoring.</li>li>
+                    <li>Novel continuous (up to nearly real-time) incremental warehouse updates with data quality monitoring.</li>
                     <li>Micro-service development with C\# and a .NET stack, with experience in blue-green deployment, database servicing, feature flags, and zero-downtime deployments.</li>
                     <li>Multi-tenant data storage with horizontal scaling on Azure SQL Server.</li>
                     <li>Fast and dynamic query with a public OData API with  conversion with column-store indexes.</li>
@@ -155,7 +155,7 @@
                 <h1 class="publications-publication-title">CloneCognition: Machine Learning Based Code Clone Validation Tool</h1>
                 <h2 class="publications-publication-location">The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</h2>
                 <h3 class="publications-publication-authors"> Golam Mostaeen, <b>Jeffrey Svajlenko</b>, Banani Roy, Chanchal Kumar Roy and Kevin A. Schneider</h3>
-                <p class="publications-publication-abstract">A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool 'CloneCognition' (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.</p>
+                <p class="publications-publication-abstract">A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool 'CloneCognition' to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.</p>
                 <p class="publications-publication-doi">DOI: <a href="https://doi.org/10.1109/TSE.2019.2912962" target="_blank">10.1109/TSE.2019.2912962</a></p>
             </section>
             <hr>
