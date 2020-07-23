@@ -2,6 +2,10 @@
     
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .hero {
     margin: 0;
     padding: 0;
